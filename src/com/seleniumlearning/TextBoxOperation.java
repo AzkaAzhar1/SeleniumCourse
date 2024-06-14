@@ -18,7 +18,8 @@ public class TextBoxOperation {
 		
 		// Identify the TextBox
 	WebElement emailtextbox = driver.findElement(By.name("email"));
-    boolean isDisplayed = emailtextbox.isDisplayed();  //boolean will return true or false
+  // is displayed
+	boolean isDisplayed = emailtextbox.isDisplayed();  //boolean will return true or false
     System.out.println("It's displayed status:"+ isDisplayed); //to check in console wether the textbox is displayed or not
     
        // Textbox is enabled or not

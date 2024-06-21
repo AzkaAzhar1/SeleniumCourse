@@ -5,7 +5,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SeleniumMethods {
 
 	public static void main(String[] args) {
-		
+		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\PC\\Downloads\\geckodriver-v0.34.0-win64\\geckodriver.exe");
+
 		//Open Browser
 	FirefoxDriver driver = new FirefoxDriver();
 	driver.manage().window().maximize();

@@ -6,6 +6,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Navigates {
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\PC\\Downloads\\geckodriver-v0.34.0-win64\\geckodriver.exe");
+
 		//Open Browser
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -20,19 +23,19 @@ public class Navigates {
 				
 		Thread.sleep(5000);
 
-				// click on back button of browser
+		// click on back button of browser
 
 		driver.navigate().back();
 				
 		Thread.sleep(5000);
 
-				// click on forword button of browser
+		// click on forword button of browser
 
 		driver.navigate().forward();
 				
 		Thread.sleep(5000);
 
-				// refresh the url
+		// refresh the url
 
 		driver.navigate().refresh();
 	}

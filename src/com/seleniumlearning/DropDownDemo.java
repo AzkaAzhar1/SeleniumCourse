@@ -26,8 +26,8 @@ public class DropDownDemo {
 	//created object of the Select class
 		Select selectcompanysize = new Select(companysize);
 		
-		selectcompanysize.selectByVisibleText("1 - 19");
-		selectcompanysize.selectByValue("100 - 249");
+		//selectcompanysize.selectByVisibleText("1 - 19");
+		//selectcompanysize.selectByValue("100 - 249");
 		// selecting option based on the index of options
 		selectcompanysize.selectByIndex(2);
 		

@@ -23,6 +23,7 @@ public class iframeHandling {
 
 		//identify the element which is present in iframe
         driver.findElement(By.xpath("//button[@title='Close']")).click();
+       
         // to come out of iframe
         driver.switchTo().defaultContent();
 	

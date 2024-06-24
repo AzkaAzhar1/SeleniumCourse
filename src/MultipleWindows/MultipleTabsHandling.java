@@ -30,7 +30,7 @@ public class MultipleTabsHandling {
         System.out.println("First tab window id is :" + firstWindowID);
         
         // Get all window ids
-        Set<String> allWindowIds = driver.getWindowHandles();
+        Set<String> allWindowIds = driver.getWindowHandles(); // returns a Set of String values, where each String is a window handle (a unique identifier for each open browser window or tab).
         
         // Switch to the second tab
         for (String s : allWindowIds) {

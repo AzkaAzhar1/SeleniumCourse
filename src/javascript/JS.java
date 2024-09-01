@@ -39,7 +39,19 @@ public class JS {
         WebElement loginbutton = driver.findElement(By.className("btn"));
         js.executeScript("arguments[0].click()", loginbutton);
         
-        driver.quit(); // Close the browser after actions
+         // get title
+
+     	String title = js.executeScript("return document.title").toString();
+        
+     	System.out.println("Title of page is :" + title);
+
+		// get url
+
+		String url = js.executeScript("return document.URL").toString();
+
+		System.out.println("url of page is :" + url);
+		
+        //driver.quit(); // Close the browser after actions
     }
 
 }

@@ -32,7 +32,7 @@ public class JsScrolling {
       
 		//Scroll down the page till end
       
-      js.executeScript("window.scrollTo(0 , document.body.scrollHeight)");
+      js.executeScript("window.scrollTo(0 , document.body.scrollHeight)");  //top to bottom scrolling is vertical scrolling
 		
 	}
 

@@ -32,7 +32,7 @@ public class MoveMouse {
 
 			WebElement emailIdTextBox = driver.findElement(By.id("ap_email"));
 
-			action.sendKeys(emailIdTextBox, "test@test.com").build().perform();
+			action.sendKeys(emailIdTextBox, "test@gmail.com").build().perform();
 	
 	}
 

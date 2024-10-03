@@ -21,13 +21,13 @@ public class DoubleClick {
 			//button is in the iframe so that is why driver focus is changing to iframe. 
 			driver.switchTo().frame("iframeResult");
 			
-			WebElement button = driver.findElement(By.xpath("//button[text()='Double-click me']"));
+			WebElement btn = driver.findElement(By.xpath("//button[text()='Double-click me']"));
 			
 			//actions class to perform keyboard mouse events
 			
 			Actions action = new Actions(driver);
 
-            action.doubleClick(button).build().perform();
+            action.doubleClick(btn).build().perform();
 }
 
 }

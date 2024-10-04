@@ -21,7 +21,7 @@ public class implicitwait {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 	driver.findElement(By.name("firstname")).sendKeys("azka");
-	driver.findElement(By.name("lastname")).sendKeys("AJ");
+	driver.findElement(By.name("lastname")).sendKeys("A");
 
 	}
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T21:53:26 PKT" name="Suite" finished-at="2025-03-20T21:54:25 PKT" duration-ms="59009">
+    <groups>
+    </groups>
+    <test started-at="2025-03-20T21:53:26 PKT" name="Orange HRM Test" finished-at="2025-03-20T21:54:25 PKT" duration-ms="59009">
+      <class name="TestNGFramework.OrangeHRMTestcases">
+        <test-method signature="login()[pri:1, instance:TestNGFramework.OrangeHRMTestcases@470734c3]" started-at="2025-03-20T21:53:26 PKT" name="login" finished-at="2025-03-20T21:54:23 PKT" duration-ms="56980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="searchleave()[pri:2, instance:TestNGFramework.OrangeHRMTestcases@470734c3]" started-at="2025-03-20T21:54:24 PKT" name="searchleave" finished-at="2025-03-20T21:54:25 PKT" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchleave -->
+      </class> <!-- TestNGFramework.OrangeHRMTestcases -->
+    </test> <!-- Orange HRM Test -->
+  </suite> <!-- Suite -->
+</testng-results>
